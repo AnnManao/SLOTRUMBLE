@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLOTRUMBLE</title>
+    <link rel="stylesheet" href="build/tailwind.css">
+</head>
+<body>
+    <div class="flex items-center justify-center w-full h-screen bg-fixed bg-cover md:w-screen" style="background-image: url('background.png');">
+        <div class="flex flex-col items-center justify-center w-full h-full space-y-6 md:px-32">
+            <img class="h-80 w-80" src="slotrumble.png" alt="logo">
+            <div class="grid items-center justify-center w-auto h-auto grid-cols-3 gap-2 md:gap-6">
+                <div class="flex items-center justify-center w-auto h-auto bg-white border-4 border-black">
+                    <img class="w-24 h-24 md:h-64 md:w-64" src="lose.png">
+                </div>
+                <div class="flex items-center justify-center w-auto h-auto bg-white border-4 border-black">
+                    <img class="w-24 h-24 md:h-64 md:w-64" src="random.png">
+                </div>
+                <div class="flex items-center justify-center w-auto h-auto bg-white border-4 border-black">
+                    <img class="w-24 h-24 md:h-64 md:w-64" src="lose.png">
+                </div>
+            </div>
+            <button class="px-8 py-4 bg-red-500 border-4 border-red-600 rounded-md">
+                <p class="font-serif text-xl font-semibold text-center text-white">SPIN</p>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
